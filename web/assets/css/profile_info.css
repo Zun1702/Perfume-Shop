@@ -1,0 +1,227 @@
+
+/* ========body profile page======== */
+#body{
+    max-width: 1520px;
+    height: auto;
+    margin: auto;
+    /* padding: 30px 0; */
+    background-color: #e2e2e2;
+}
+.body_container{
+    width: 1200px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 30px 0;
+}
+.body_left{
+    width: 25%;
+    height: 350px;
+    background-color: white;
+    border-radius: 10px;
+    /* padding: 10px; */
+}
+.body_right{
+    width: 72%;
+    /* height: 600px; */
+    height: auto;
+    /* background-color: tomato; */
+}
+/* ======body left====== */
+.body_left-dashboard{
+    width: 100%;
+    height: 30%;   
+}
+.body_left-dashboard_title{
+    padding: 20px;
+    font-size: 16px;
+    color: gray;
+}
+.body_left-dashboard_child{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+.body_left-dashboard_child:hover{
+    border-left: solid 4px #72af5c;
+    color: #72af5c;
+}
+#current_page{
+    border-left: solid 4px #72af5c;
+    color: #72af5c;
+}
+.body_left-setting{
+    width: 100%;
+    height: 50%;
+}
+/* #hover_icon:hover{
+    color: #72af5c;
+} */
+.dashboard_icon{
+    width: 20px;
+    margin-right: 5px;
+}
+
+/* ====body right==== */
+.body_right-title{
+    display: flex;
+    justify-content: space-between;
+}
+#body_right-title{
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 15px;
+}
+.body_right-title-1{
+    display: flex;
+    align-items: center;
+}
+.body_right-edit_button{
+    /* border: 1px #316020 solid; */
+    background-color: #222222;
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+}
+    .body_right-edit_button:hover{
+    /* border: 1px #316020 solid; */
+    background-color: #244444;
+   
+}
+.body_right-status{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px 30px;
+    margin: 20px 0;
+    display: flex;
+}
+.body_right-status_avatar{
+    width: 10%;
+    /* align-items: center;
+    text-align: center; */
+}
+#body_right-status_avatar{
+    width: 100%;
+    /* height: 100%; */
+    object-fit: cover;
+    border-radius: 50%;
+}
+.body_right-status_right{
+    width: 90%;
+    /* padding-left: 20px; */
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.body_right-status_name{
+    width: 40%;
+    display: grid;
+    /* padding: 20px 0; */
+    /* align-items: center; */
+    /* display: flex; */
+}
+#body_right-status_name{
+    font-weight: 500;
+}
+.body_right-status_name-money{
+    font-size: 15px;
+}
+#body_right-status_name-money{
+    color: #72af5c;
+}
+.body_right-status_name-level{
+    width: 122px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 6px;
+    background-color: #222222;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+.body_right-status_crown{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#body_right-status_crown{
+    font-size: 40px;
+    color: gold;
+}
+.body_right-status_crown-child{
+    width: 85%;
+}
+#body_right-status_crown-child{
+    font-size: 15px;
+    width: 100%;
+    margin: 5px 0;
+}
+#progressBar {
+    position: relative;
+    width: 100%;
+    height: 7px;
+    background-color: #dbe4d8;
+    border-radius: 10px;
+}
+  
+#barStatus {
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    background-color: #72af5c;
+    border-radius: 10px;
+}
+.body_right-history{
+    display: flex;
+    justify-content: space-between;
+}
+.body_right-history_child{
+    padding: 15px;
+    width: 24%;
+    height: auto;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 17px;
+}
+.body_right-history_child-number{
+    font-size: 24px;
+    color: #72af5c;
+    font-weight: 600;
+}
+.body_right-info{
+    display: flex;
+    border-radius: 10px;
+    background-color: white;
+    margin: 20px 0;
+    padding: 21px 15px;
+    justify-content: space-between;
+}
+.body_right-info_child{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+.body_right-info_child-title{
+    font-size: 12px;
+    color: gray;
+}
+.body_right-info_child-text{
+    font-size: 14px;
+}
+/* ========end body profile page======== */
+
+.body_right-title_icon{
+    color: #397224;
+}

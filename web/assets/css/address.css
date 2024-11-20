@@ -1,0 +1,126 @@
+
+/* =========== css phần địa chỉ ============ */
+.body_right-address{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+.body_right-address-item{
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+    border-radius: 6px;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+.body_right-address-child{
+    width: 24%;
+    height: 45px;
+    padding: 5px;
+    font-size: 12px;
+    color: gray;
+    text-align: center
+}
+.body_right-address-child-item{
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    color: black;
+}
+.icon_editaddress{
+    width: 30px;
+    height: 30px;
+    padding: 8px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.icon_editaddress:hover{
+    background-color: rgb(200, 200, 200);
+}
+
+/*css phần dialog box address*/
+#over {
+    display: none;
+    background: #000;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    z-index: 999;
+}
+a, a:visited, a:active{
+    text-decoration:none;
+}
+.address_box
+{
+    background-color:white;
+    height:450px;
+    width:450px;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    font-size:14px;
+    padding-bottom:5px;
+    display:none;
+    overflow:hidden;
+    position:absolute;
+    z-index:99999;
+    top:20%;
+    left:50%;
+    margin-left:-250px;
+    position: fixed !important;
+    border-radius: 20px;
+}
+ 
+.address_box .address_title
+{
+    border-bottom: 1px solid rgba(0,0,0,.09);
+    box-sizing: border-box;
+    height: 56px;
+    padding: 16px 24px;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5rem
+}
+ 
+.address_detail{
+    padding: 24px 24px 88px;
+}
+.radio_input{
+    padding:16px;
+}
+
+.img_close {
+    float: right;
+    margin-top:-43px;
+    margin-right:15px;
+
+}
+
+/*css phần dialog add address*/
+
+.two_button_css{
+display: flex;
+justify-content: space-evenly;
+}
+.button_add_address{
+    margin-top:10px;
+    width: 70px;
+    height: 30px;
+}
+.input_address_dialog{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 40px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    border: solid 1px black;
+    border-radius: 10px;
+    padding: 8px;
+    margin-top:20px;
+    margin-left: 40px;
+    
+}
